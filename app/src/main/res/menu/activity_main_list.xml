@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_shuffle"
+        android:orderInCategory="1"
+        android:icon="@drawable/rand"
+        android:showAsAction="always"
+        android:title="Shuffle"/>
+
+    <item
+        android:id="@+id/action_end"
+        android:orderInCategory="2"
+        android:icon="@drawable/end"
+        android:showAsAction="always"
+        android:title="End"/>
+    <item
+        android:id="@+id/refreshButton"
+        android:showAsAction="always"
+        android:title="@string/ab_refresh" />
+
+    <item
+        android:id="@+id/addButton"
+        android:showAsAction="always"
+        android:title="@string/ab_add" />
+
+    <item
+        android:id="@+id/followButton"
+        android:showAsAction="ifRoom"
+        android:title="@string/ab_follow" />
+
+    <item
+        android:id="@+id/logoutButton"
+        android:showAsAction="ifRoom"
+        android:title="@string/ab_logout" />
+
+</menu>
